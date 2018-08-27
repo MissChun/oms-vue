@@ -1,12 +1,5 @@
-import dashboard from './dashboard'
 import orders from './orders'
-import logisticsManage from './logisticsManage'
-import mapManage from './mapManage'
-import transportPowerManage from './transportPowerManage'
-import clientManage from './clientManage'
 import setting from './setting'
-import statistics from './statistics'
-import news from './news'
 export default [{
   path: '',
   name: 'index',
@@ -16,14 +9,7 @@ export default [{
     title: '首页'
   },
   children: [
-    dashboard,
     orders,
-    logisticsManage,
-    mapManage,
-    transportPowerManage,
-    clientManage,
-    statistics,
     setting,
-    news
   ]
 }];
